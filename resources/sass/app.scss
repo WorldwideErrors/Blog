@@ -36,7 +36,8 @@ h3{
   margin-left: 11px;
   font-weight: 900;
   margin-top: 40px;
-  color: orangered;
+  color: $teal;
+  border-bottom: 1px solid white;
 }
 
 .SinglePostItem p{
@@ -57,11 +58,11 @@ h3{
   margin-left: 11px;
   font-weight: 900;
   margin-top: 40px;
-  color: orangered;
+  color: $teal;
 }
 
 .postitem:hover{
-  color: orangered;
+  color: $teal;
   text-decoration: none;
 }
 
@@ -75,8 +76,16 @@ h3{
 }
 
 .SinglePostIt p{
-  text-align: center;
+  text-align: left;
   font-family: 'Maison Neue Red Bull Demi';
   font-size: 1.4em;
   color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.PostSingle{
+  background-image: url("https://cdn.pixabay.com/photo/2019/07/14/16/27/pen-4337521_1280.jpg");
+  background-size: cover;
+  height: 100%;
 }

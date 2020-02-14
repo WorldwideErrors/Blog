@@ -11359,6 +11359,15 @@ a.text-dark:focus {
 h1 {
   text-align: center;
   font-family: "Druk Wide Web Medium";
+  margin-right: 0;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 22.4px;
+  margin-left: 11px;
+  font-weight: 900;
+  margin-top: 40px;
+  color: black;
 }
 
 h3 {
@@ -11375,9 +11384,11 @@ h3 {
   color: orangered;
 }
 
-p {
+.SinglePostItem p {
   text-align: center;
   font-family: "Maison Neue Red Bull Demi";
+  font-size: 1.4em;
+  color: white;
 }
 
 .postitem {
@@ -11397,5 +11408,21 @@ p {
 .postitem:hover {
   color: orangered;
   text-decoration: none;
+}
+
+.SinglePostItem {
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  background-color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.SinglePostIt p {
+  text-align: center;
+  font-family: "Maison Neue Red Bull Demi";
+  font-size: 1.4em;
+  color: black;
 }
 

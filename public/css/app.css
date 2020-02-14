@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(http://db.onlinewebfonts.com/c/5796fb1b44e3c87b7f3d5ff57994f7b3?family=Druk+Wide+Web+Medium);@import url(http://db.onlinewebfonts.com/c/4077fc58b77b7447130fb9084b7afac7?family=Maison+Neue+Red+Bull+Demi);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
@@ -34,7 +34,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Nunito", sans-serif;
+  --font-family-sans-serif: "Druk Wide Web Medium";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -66,7 +66,7 @@ section {
 
 body {
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Druk Wide Web Medium";
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
@@ -6714,7 +6714,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Druk Wide Web Medium";
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -6839,7 +6839,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Druk Wide Web Medium";
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -11354,5 +11354,48 @@ a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+h1 {
+  text-align: center;
+  font-family: "Druk Wide Web Medium";
+}
+
+h3 {
+  text-align: center;
+  font-family: "Druk Wide Web Medium";
+  margin-right: 0;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 22.4px;
+  margin-left: 11px;
+  font-weight: 900;
+  margin-top: 40px;
+  color: orangered;
+}
+
+p {
+  text-align: center;
+  font-family: "Maison Neue Red Bull Demi";
+}
+
+.postitem {
+  text-align: center;
+  font-family: "Druk Wide Web Medium";
+  margin-right: 0;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 22.4px;
+  margin-left: 11px;
+  font-weight: 900;
+  margin-top: 40px;
+  color: orangered;
+}
+
+.postitem:hover {
+  color: orangered;
+  text-decoration: none;
 }
 

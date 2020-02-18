@@ -9,7 +9,7 @@ use App\Post;
 class PostController extends Controller
 {
     public function index(){
-        $posts = Post::all();
+        $posts = Post::orderBy('created_at', 'desc')->get();
         //return ($posts);
         return view('posts.index')->withPosts($posts);
     }

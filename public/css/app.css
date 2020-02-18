@@ -1332,7 +1332,6 @@ pre code {
     -webkit-box-flex: 0;
             flex: 0 0 66.6666666667%;
     max-width: 66.6666666667%;
-    border-radius: 20px;
   }
 
   .col-md-9 {
@@ -11372,7 +11371,7 @@ h1 {
 }
 
 h3 {
-  text-align: center;
+  text-align: left;
   font-family: "Druk Wide Web Medium";
   margin-right: 0;
   margin-bottom: 0;
@@ -11383,7 +11382,6 @@ h3 {
   font-weight: 900;
   margin-top: 40px;
   color: #4dc0b5;
-  border-bottom: 1px solid white;
 }
 
 .SinglePostItem p {
@@ -11391,6 +11389,14 @@ h3 {
   font-family: "Maison Neue Red Bull Demi";
   font-size: 1.4em;
   color: white;
+}
+
+.SinglePostItem i {
+  text-align: center;
+  font-family: "Maison Neue Red Bull Demi";
+  color: white;
+  float: right !important;
+  display: block;
 }
 
 .postitem {
@@ -11412,7 +11418,7 @@ h3 {
   text-decoration: none;
 }
 
-.SinglePostItem {
+.post-all .SinglePostItem {
   border: 2px solid black;
   border-radius: 20px;
   margin-bottom: 15px;
@@ -11421,7 +11427,7 @@ h3 {
   padding-right: 10px;
 }
 
-.SinglePostIt p {
+.post-single .SinglePostIt h4 {
   text-align: left;
   font-family: "Maison Neue Red Bull Demi";
   font-size: 1.4em;
@@ -11430,7 +11436,7 @@ h3 {
   padding-right: 10px;
 }
 
-.PostSingle {
+.post-single .PostSingle {
   background-image: url("https://cdn.pixabay.com/photo/2019/07/14/16/27/pen-4337521_1280.jpg");
   background-size: cover;
   height: 100%;

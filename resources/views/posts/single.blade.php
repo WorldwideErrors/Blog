@@ -10,6 +10,10 @@
                         <hr/>
                         <h4>{{$post->content}}</h4><br/>
                         <h4>Gepubliceerd op {{$post->published_at ?? "Nog niet gepubliceerd" }}</h4><br/>
+                        @auth()
+                        <a href="#"class="btn btn-succes">Publish post</a>
+                        <a href="/posts/{{$post->id}}/edit" class="btn btn-default">Edit Post</a>
+                        @endauth
                     </div>
                 </div>
             </div>

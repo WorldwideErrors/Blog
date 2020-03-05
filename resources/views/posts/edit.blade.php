@@ -23,6 +23,13 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Save post</button>
                 </form>
+                <button class="btn btn-danger" onclick="event.preventDefault(); document.getElementById('delete-post-form').submit();">
+                    Delete post
+                </button>
+                <form id="delete-post-form" action="/posts/{{$post->id}}" method="post" style="display: none">
+                    @csrf
+                    @method('delete')
+                </form>
             </div>
         </div>
     </div>

@@ -19,38 +19,52 @@ h1{
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 22.4px;
-  margin-left: 11px;
+  margin-left: 5px;
   font-weight: 900;
   margin-top: 40px;
   color: black;
 }
 
-h3{
-  text-align: left;
-  font-family: 'Druk Wide Web Medium';
-  margin-right: 0;
-  margin-bottom: 0;
-  text-transform: uppercase;
-  font-size: 22.4px;
-  margin-left: 11px;
-  font-weight: 900;
-  margin-top: 40px;
-  color: $teal;
+h3 .profile-text{
+    text-align: left;
+    font-family: 'Maison Neue Red Bull Demi';
 }
 
-.SinglePostItem p{
-  text-align: center;
-  font-family: 'Maison Neue Red Bull Demi';
-  font-size: 1.4em;
-  color: white;
+.SinglePostIt .p-3 {
+    h3 .title {
+        text-align: left;
+        font-family: 'Druk Wide Web Medium' !important;
+        margin-right: 0;
+        margin-bottom: 0;
+        font-size: 22.4px;
+        margin-left: 5px;
+        font-weight: 900;
+        margin-top: 30px !important;
+        color: black;
+    }
 }
-
 .SinglePostItem i{
   text-align: center;
   font-family: 'Maison Neue Red Bull Demi';
-  color: white;
+  color: black;
   float: right !important;
   display: block;
+  margin-left: 8px;
+  font-size: 15px;
+    margin-top: 20px;
+}
+
+.SinglePostItem{
+    text-align: left;
+    font-family: 'Druk Wide Web Medium' !important;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-size: 22.4px;
+    margin-left: 0;
+    font-weight: 900;
+    margin-top: 10px;
+    color: black;
+    padding-top: 5px;
 }
 
 .postitem{
@@ -58,27 +72,23 @@ h3{
   font-family: 'Druk Wide Web Medium';
   margin-right: 0;
   margin-bottom: 0;
-  letter-spacing: 1px;
-  text-transform: uppercase;
   font-size: 22.4px;
   margin-left: 11px;
-  font-weight: 900;
-  margin-top: 40px;
-  color: $teal;
+  margin-top: 30px;
+  color: black;
 }
 
 .postitem:hover{
-  color: $teal;
+  color: rgba(0, 54, 57, 0.75);
   text-decoration: none;
 }
 .post-all {
   .SinglePostItem {
-    border: 2px solid black;
-    border-radius: 20px;
-    margin-bottom: 15px;
-    background-color: black;
-    padding-left: 10px;
+    margin-bottom: 2px;
+    background-color: rgba(0, 154, 157, 0.51);
     padding-right: 10px;
+    padding-left: 0 !important;
+    border: 2px rgba(0,0,0,0.1) ;
   }
 }
 
@@ -88,10 +98,11 @@ h3{
     font-family: 'Maison Neue Red Bull Demi';
     font-size: 1.4em;
     color: black;
-    padding-left: 10px;
+    padding-left: 0;
     padding-right: 10px;
   }
 }
+
 .post-single{
   .PostSingle{
     background-image: url("https://cdn.pixabay.com/photo/2019/07/14/16/27/pen-4337521_1280.jpg");
@@ -100,11 +111,207 @@ h3{
   }
 }
 
+.col-xl, .col-xl-auto, .col-xl-12, .col-xl-11, .col-xl-10, .col-xl-9, .col-xl-8, .col-xl-7, .col-xl-6, .col-xl-5, .col-xl-4, .col-xl-3, .col-xl-2, .col-xl-1, .col-lg, .col-lg-auto, .col-lg-12, .col-lg-11, .col-lg-10, .col-lg-9, .col-lg-8, .col-lg-7, .col-lg-6, .col-lg-5, .col-lg-4, .col-lg-3, .col-lg-2, .col-lg-1, .col-md, .col-md-auto, .col-md-12, .col-md-11, .col-md-10, .col-md-9, .col-md-8, .col-md-7, .col-md-6, .col-md-5, .col-md-4, .col-md-3, .col-md-2, .col-md-1, .col-sm, .col-sm-auto, .col-sm-12, .col-sm-11, .col-sm-10, .col-sm-9, .col-sm-8, .col-sm-7, .col-sm-6, .col-sm-5, .col-sm-4, .col-sm-3, .col-sm-2, .col-sm-1, .col, .col-auto, .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
+    padding-left: 0;
+}
+
 .btn .btn-default{
-    background: blue;
+    background: rgba(0, 154, 157, 0.76) !important;
+}
+
+.tekst{
+    font-family: 'Maison Neue Red Bull Demi';
 }
 
 .nav-item{
     margin-left: 5px;
     margin-right: 5px;
 }
+
+.postbutton{
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.endline{
+    margin-top: 0;
+    margin-left: 5px;
+    margin-bottom: 0;
+
+}
+.profile-image{
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    background: rgba(0,0,0,0.3);
+    //margin-bottom: 15px;
+}
+
+.picture-wall{
+    background-image: url("../../public/images/picmuur.png") !important;
+    background-size: cover;
+    /*transform: scaleX(4);*/
+    height: 90vh;
+    max-width: 100%;
+    padding-left: 20px !important;
+    margin-top: 17px;
+}
+
+.py-4{
+    padding: 0 !important;
+}
+
+/*#app {
+    z-index: 6 !important;
+}*/
+
+.col-sm-2 .mr-4{
+    margin-right: 0 !important;
+}
+
+.col-xl, .col-xl-auto, .col-xl-12, .col-xl-11, .col-xl-10, .col-xl-9, .col-xl-8, .col-xl-7, .col-xl-6, .col-xl-5, .col-xl-4, .col-xl-3, .col-xl-2, .col-xl-1, .col-lg, .col-lg-auto, .col-lg-12, .col-lg-11, .col-lg-10, .col-lg-9, .col-lg-8, .col-lg-7, .col-lg-6, .col-lg-5, .col-lg-4, .col-lg-3, .col-lg-2, .col-lg-1, .col-md, .col-md-auto, .col-md-12, .col-md-11, .col-md-10, .col-md-9, .col-md-8, .col-md-7, .col-md-6, .col-md-5, .col-md-4, .col-md-3, .col-md-2, .col-md-1, .col-sm, .col-sm-auto, .col-sm-12, .col-sm-11, .col-sm-10, .col-sm-9, .col-sm-8, .col-sm-7, .col-sm-6, .col-sm-5, .col-sm-4, .col-sm-3, .col-sm-2, .col-sm-1, .col, .col-auto, .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 .dash{
+    padding-left: 15px !important;
+}
+
+.dashboard{
+    margin-top: 100px !important;
+}
+
+.headercard{
+    margin-top: 10px;
+}
+
+.footer {
+    position: fixed;
+    height: 300px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url("https://pngimage.net/wp-content/uploads/2018/06/social-media-people-png-1.png") !important;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.reaction-title{
+    align-content: center;
+}
+
+.reaction{
+    background-color: rgba(0, 154, 157, 0.51);
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.username{
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    line-height: 1.375rem !important;
+    color: var(--header-primary) !important;
+    display: inline !important;
+    vertical-align: baseline !important;
+    position: relative !important;
+}
+
+.reactioncreated{
+    margin: 0 !important;
+    padding: 0;
+    border: 0 ;
+    font-weight: inherit !important;
+    font-family: Arial !important;
+    font-size: 100% !important;
+    vertical-align: baseline !important;
+    line-height: 1.375rem !important;
+    color: var(--text-muted) !important;
+}
+
+.comment-tekst{
+    font-size: 1rem !important;
+    line-height: 1.375rem !important;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    //-webkit-user-select: text;
+    //-moz-user-select: text;
+    //-ms-user-select: text;
+    //user-select: text;
+    color: var(--text-normal);
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.reaction-buttons{
+    padding-top: 15px;
+}
+
+.profiel-plaatje{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    background: rgba(0,0,0,0.3);
+    //margin-bottom: 15px;
+}
+
+#delete-post-form{
+    margin-bottom: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+#saveedit{
+    margin-bottom: 10px;
+}
+
+#btn-comment-login{
+    margin-left: 120px;
+}
+
+#btn-edit{
+    margin-top: 15px;
+}
+
+.publishdatum{
+    margin: 0 !important;
+    padding: 0;
+    border: 0 ;
+    font-weight: inherit !important;
+    font-family: Arial !important;
+    font-size: 100% !important;
+    vertical-align: baseline !important;
+    line-height: 1.375rem !important;
+    color: var(--text-muted) !important;
+}
+
+#Publishbutton{
+    margin-top: 15px;
+}
+
+#linav{
+    color: rgba(0, 154, 157, 0.76);
+}
+
+.col-md-8.post-all{
+    padding-right: 0 !important;
+}
+
+.discord{
+    width: 100%;
+    margin-top: 30px;
+    height: 720px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+/*a.page-link{
+    color: rgba(0, 154, 157, 0.76);
+    background: white !important;
+}
+
+span.page-link{
+    background-color: rgba(0, 154, 157, 0.76) !important;
+}
+
+li.page-item{
+    background-color: white !important;
+}*/
+

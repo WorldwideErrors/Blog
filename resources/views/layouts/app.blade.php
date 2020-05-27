@@ -18,6 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.16/dist/summernote.min.css" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -33,7 +34,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-menu"><a class="nav-item" href="/posts/"> Posts </a></li>
+                        <li class="nav-menu"><a class="nav-item" id="linav" href="/posts/"> Posts </a></li>
 
                     </ul>
 
@@ -56,6 +57,8 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ route('home') }}">{{__('Home')}}</a>
+                                    <a class="dropdown-item" href="/posts/create">Create post </a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">

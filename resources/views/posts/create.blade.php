@@ -6,7 +6,7 @@
             <div class="col-md-8 post-create">
                 <h1>Create a new post</h1>
                 <hr/>
-                <form action="/posts" method="post">
+                <form action="/posts" method="post" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group">
                         <label for="txtTitle">Title</label>

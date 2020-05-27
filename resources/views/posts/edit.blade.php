@@ -6,7 +6,7 @@
             <div class="col-md-8 post-create">
                 <h1>Edit post</h1>
                 <hr/>
-                <form action="/posts/{{$post->id}}" method="post">
+                <form action="/posts/{{$post->id}}" method="post" enctype="multipart/form-data">
                     @csrf
                     @method('put')
                     <div class="form-group">
@@ -23,6 +23,8 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Save post</button>
                 </form>
+                <br/>
+                @can('delete',$post)
                 <button class="btn btn-danger" onclick="event.preventDefault(); document.getElementById('delete-post-form').submit();">
                     Delete post
                 </button>
@@ -30,6 +32,9 @@
                     @csrf
                     @method('delete')
                 </form>
+                @endcan
+                <br/>
+                <br/>
             </div>
         </div>
     </div>
